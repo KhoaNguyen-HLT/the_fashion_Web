@@ -1,0 +1,302 @@
+/* reset Css */
+html {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+/* common */
+body {
+  margin: 0px;
+}
+/* phần header */
+#maint {
+  max-width: 1600px;
+}
+#header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 38px;
+  background-color: #111;
+}
+.header__social {
+  width: 100%;
+  height: 100%;
+}
+.header__icon {
+  display: inline-flex;
+  width: 45px;
+  height: 38px;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+.header__icon:hover {
+  background-color: #ccc;
+}
+.header__icon i {
+  color: #fff;
+  font-size: 15px;
+}
+.header__search {
+  display: flex;
+  width: 46px;
+  justify-content: center;
+}
+.header__saerch-link {
+  display: inline-block;
+}
+.blog__heading {
+  text-align: center;
+  padding: 48px 16px;
+}
+.blog__heading-title {
+  font-family: "Oswald";
+  font-size: 48px;
+  color: #000;
+  padding: 0px;
+  margin: 10px 0;
+}
+.blog__heading-descriptinon {
+  margin: 0px;
+  font-family: "Oswald";
+  font-weight: 300;
+  font-size: 16px;
+}
+.heading-description-blacker-out {
+  margin: 0px;
+  padding: 0 8px;
+  background-color: #111;
+  color: #fff;
+}
+.blog__body {
+  position: relative;
+  width: 100%;
+}
+.blog__body-img {
+  width: 100%;
+}
+.blog__body-info {
+  position: absolute;
+  top: 35%;
+  left: 0px;
+  padding: 12px 24px;
+}
+.blog__body-info-jane {
+  font-family: "Oswald";
+  color: #fff;
+  font-weight: 400;
+  margin: 10px 0;
+  font-size: 36px;
+  letter-spacing: 4px;
+}
+.blog__body-info-fashion {
+  font-family: "Oswald";
+  color: #fff;
+  font-size: 64px;
+  margin: 0px;
+  letter-spacing: 4px;
+  line-height: 1.5;
+}
+.blog__body-btn {
+  display: block;
+  margin: 10px 0;
+}
+.blog__body-btn-btn {
+  font-size: 18px;
+  font-family: "Oswald";
+  padding: 12px 24px;
+  border: 0px;
+  background-color: rgba(187, 184, 184, 0.6);
+}
+.blog__body-btn-btn:hover {
+  background-color: rgba(187, 184, 184, 1.2);
+}
+/* phần thân */
+#body-title {
+  display: flex;
+  padding: 8px 16px;
+  background-color: #f1f1f1;
+}
+/* phần title */
+.title__title {
+  display: block;
+  width: 66.6666%;
+  background-color: #f1f1f1;
+}
+.title__title-picture {
+  background-color: #fff;
+  padding: 12px 24px;
+  margin: 16px;
+}
+.title__title-heading {
+  text-align: center;
+  font-family: "Oswald";
+  font-size: 24px;
+  margin: 10px 0px;
+  line-height: 1.5;
+  font-weight: 400;
+}
+.title__title-description {
+  text-align: center;
+  font-weight: 400;
+  margin: 10px 0;
+  font-size: 18px;
+  color: #000;
+  font-family: "Oswald";
+}
+.title__title-description span {
+  color: #111;
+  opacity: 0.6;
+}
+.title__title-img {
+  padding: 16px 0;
+  width: 100%;
+}
+.title__title-document-under,
+.title__title-document-on {
+  font-size: 15px;
+  line-height: 1.5;
+  font-family: "Open Sans";
+  text-align: justify;
+}
+.title__title-document-on b {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 1.5;
+  font-family: "Open Sans";
+}
+
+.title__title-like {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0 15px;
+  padding-bottom: 35px;
+}
+.title__title-like-like {
+  width: 86px;
+  height: 40px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+}
+.title__title-like-like:hover {
+  background-color: #d4cfcf;
+}
+
+.title__title-replies {
+  display: flex;
+  width: 118px;
+  background-color: #111;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  font-family: "Open Sans";
+  border: 0px;
+}
+.title__title-replies:hover {
+  background-color: #d4cfcf;
+  color: #000;
+}
+.title__title-replies-number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  color: #000;
+  width: 25px;
+  height: 22px;
+  margin-left: 12px;
+}
+.title__title-George {
+  display: flex;
+  padding: 20px 0;
+  border-top: 1px solid #ccc;
+}
+.title__title-George-img {
+  width: 90px;
+  height: 100px;
+  padding-right: 45px;
+}
+.title__title-George-title {
+  font-family: "Oswald";
+  font-size: 20px;
+  line-height: 1.5;
+  margin: 15px 0;
+}
+.title__title-George-title b {
+  font-family: "Oswald";
+  font-size: 15px;
+  line-height: 1.5;
+  opacity: 0.6;
+  font-weight: 400;
+}
+.title__title-George-description {
+  font-size: 15px;
+  line-height: 1.5;
+  font-family: "Open Sans";
+  margin: 15px 0;
+}
+/* phần title Name */
+.body-title__name {
+  width: 33.3333%;
+}
+.body-title__myname {
+  margin: 16px;
+}
+.body-title__myname-img {
+  width: 100%;
+}
+.body-title__myname-document {
+  background-color: #000;
+  padding: 0 16px;
+}
+.body-title__myname-myname {
+  font-family: "Oswald";
+  font-weight: 400;
+  padding: 10px 0;
+  font-size: 20px;
+  color: #fff;
+  margin: 0px;
+}
+.body-title__myname-description {
+  font-family: "Open Sans";
+  font-size: 15px;
+  line-height: 1.3;
+  text-align: justify;
+  color: #fff;
+  padding: 10px 0;
+  margin: 0px;
+}
+.body-title__Popular {
+  margin: 16px;
+  background-color: #fff;
+}
+.body-title__Popular-title {
+  font-family: "Oswald";
+  font-size: 20px;
+  color: #fff;
+  line-height: 1.5;
+  padding: 8px 16px;
+  background-color: #000;
+  display: block;
+}
+.body-title__Popular-list {
+  padding: 0px;
+  list-style: none;
+}
+.body-title__Popular-item {
+  display: flex;
+}
+.body-title__Popular-item-img {
+  width: 50px;
+  height: 56px;
+}
+.body-title__Popular-item-text {
+}
+.body-title__Popular-item-title {
+}
+.body-title__Popular-item-description {
+}
