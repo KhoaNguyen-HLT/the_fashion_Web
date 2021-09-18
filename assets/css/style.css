@@ -157,9 +157,9 @@ body {
 }
 .title__title-document-under,
 .title__title-document-on {
-  font-size: 15px;
+  font-size: 16px;
   line-height: 1.5;
-  font-family: "Open Sans";
+  font-family: Open-Sans;
   text-align: justify;
 }
 .title__title-document-on b {
@@ -256,9 +256,10 @@ body {
   padding: 0 16px;
 }
 .body-title__myname-myname {
-  font-family: "Oswald";
+  line-height: 1.3;
+  font-size: 15px;
   font-weight: 400;
-  padding: 10px 0;
+  padding-top: 10px;
   font-size: 20px;
   color: #fff;
   margin: 0px;
