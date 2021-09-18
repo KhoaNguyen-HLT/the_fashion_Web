@@ -27,7 +27,7 @@ body {
 .header__icon {
   display: inline-flex;
   width: 45px;
-  height: 38px;
+  height: 100%;
   align-items: center;
   justify-content: center;
   text-decoration: none;
