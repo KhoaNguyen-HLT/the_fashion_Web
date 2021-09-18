@@ -1,0 +1,15 @@
+@media (max-width: 740px) {
+  #header {
+    display: none;
+  }
+  .blog__body-info-fashion {
+    display: none;
+  }
+  #body-title {
+    display: block;
+  }
+  .title__title,
+  .body-title__name {
+    width: 100%;
+  }
+}
