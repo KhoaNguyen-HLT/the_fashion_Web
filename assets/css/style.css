@@ -33,18 +33,20 @@ body {
   text-decoration: none;
   color: #fff;
 }
+.header__saerch-link:hover,
 .header__icon:hover {
   background-color: #ccc;
   font-size: 15px;
   color: #000;
 }
-.header__search {
-  display: flex;
-  width: 46px;
-  justify-content: center;
-}
 .header__saerch-link {
-  display: inline-block;
+  display: flex;
+  color: #fff;
+  width: 46px;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
 }
 .blog__heading {
   text-align: center;
@@ -213,6 +215,7 @@ body {
   display: flex;
   padding: 20px 0;
   border-top: 1px solid #ccc;
+  align-items: center;
 }
 .title__title-George-img {
   width: 90px;
