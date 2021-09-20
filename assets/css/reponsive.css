@@ -15,4 +15,10 @@
   .title__title-George {
     display: block;
   }
+  .blog__body-info {
+    position: absolute;
+    top: 15%;
+    left: 0px;
+    padding: 12px 24px;
+  }
 }
